@@ -72,11 +72,11 @@ namespace ChallengeAPI
                     "o cadastro de um novo usuário\n na base de dados.Utilize o endpoint de POST de Usuario para isso." +
                     "Você deve se cadastrar como\n 'admin', 'gerente' ou 'projetista'.\n\n"+
                     "- Autenticação\n\nObtenha um token inserindo username e senha no endpoint de login.\n\n" +
-                    "- Autorização\n\nClique no botão de autorização (Authorize) e insira 'Bearer ' seguido do token.\n\n" +
-                    "- Permissões\n\n1. Os endpoints de cadastro de Usuário e login não requerem autorização\n"+
-                    "2. Para utilizar o endpoint de cadastro de empregado você deve ter função (role) de 'gerente'\n"+
-                    "3. Para utilizar o endpoint de cadastro de projeto você deve ter função (role) de 'gerente' ou 'projetista'\n"+
-                    "4. Para utilizar os endpoints de deleção e alteração de usuário você ter função (role) de 'admin'\n"+
+                    "- Autorização\n\nClique no botão de autorização (Authorize) e insira 'Bearer' + (espaço) + token.\n\n" +
+                    "- Permissões\n\n1. Os endpoints de cadastro de Usuário e login não requerem autorização.\n"+
+                    "2. Para utilizar o endpoint de cadastro de empregado você deve ter função (role) de 'gerente'.\n"+
+                    "3. Para utilizar o endpoint de cadastro de projeto você deve ter função (role) de 'gerente' ou 'projetista'.\n"+
+                    "4. Para utilizar os endpoints de deleção e alteração de usuário você deve ter função (role) de 'admin'.\n"+
                     "5. Todos os endpoints podem ser acessados pelo 'admin'",
                     Contact = new OpenApiContact
                     {

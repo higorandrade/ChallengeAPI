@@ -37,6 +37,11 @@ namespace ChallengeAPI.Controllers
         ///         "endereco": "Brasil",
         ///         "projetos": [ 1, 2, 3 ]
         ///     }
+        ///     
+        /// Observações:
+        /// 
+        /// Caso oculto, id é gerado automaticamente.
+        /// Todos os campos são opcionais, mas, caso informado, telefone deve ser uma string numérica de 10 dígitos.
         ///
         /// </remarks>
         /// <response code="201">Sucesso.</response>

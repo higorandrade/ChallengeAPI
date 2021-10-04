@@ -36,6 +36,12 @@ namespace ChallengeAPI.Controllers
         ///         "id_gerente": 1,
         ///         "empregados": [ 2, 3 ]
         ///     }
+        ///     
+        /// Observações:
+        /// 
+        /// Caso oculto, id é gerado automaticamente.
+        /// Todos os campos, exceto id do gerente, são opcionais.
+        /// Caso oculta, data de criação assume o valor padrão (01-01-0001 00:00:00).
         ///
         /// </remarks>
         /// <response code="201">Sucesso.</response>
