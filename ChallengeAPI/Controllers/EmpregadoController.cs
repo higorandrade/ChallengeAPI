@@ -42,6 +42,7 @@ namespace ChallengeAPI.Controllers
         /// 
         /// Caso oculto, id é gerado automaticamente.
         /// Todos os campos são opcionais, mas, caso informado, telefone deve ser uma string numérica de 10 dígitos.
+        /// Ids de projetos inexistentes são ignorados.
         ///
         /// </remarks>
         /// <response code="201">Sucesso.</response>
