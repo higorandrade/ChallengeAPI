@@ -32,6 +32,8 @@ namespace ChallengeAPI.Controllers
         ///         "role": "admin" 
         ///      }
         ///
+        /// Observações:
+        /// Roles: "admin", "gerente", "projetista"
         /// </remarks>
         /// <response code="201">Sucesso.</response>
         /// <response code="400">Formato de entrada inválido.</response>
