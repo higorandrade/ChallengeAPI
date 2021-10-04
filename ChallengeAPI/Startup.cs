@@ -68,15 +68,15 @@ namespace ChallengeAPI
                     Title = "Challenge API",
                     Version = "v1",
                     Description = "WebAPI desenvolvida em .NET utilizando o EntityFramework, Swagger e JWT.\n"+
-                    "\nInstruções de uso:\n Para utilizar esta WebAPI pela primeira vez, você deve realizar " +
-                    "o cadastro de um novo usuário\n na base de dados.Utilize o endpoint de POST de Usuario para isso." +
-                    "Você deve se cadastrar como\n 'admin', 'gerente' ou 'projetista'.\n\n"+
-                    "- Autenticação\n\nObtenha um token inserindo username e senha no endpoint de login.\n\n" +
-                    "- Autorização\n\nClique no botão de autorização (Authorize) e insira 'Bearer ' seguido do token.\n\n" +
-                    "- Permissões\n\n1. Os endpoints de cadastro de Usuário e login não requerem autorização\n"+
-                    "2. Para utilizar o endpoint de cadastro de empregado você deve ter função (role) de 'gerente'\n"+
-                    "3. Para utilizar o endpoint de cadastro de projeto você deve ter função (role) de 'gerente' ou 'projetista'\n"+
-                    "4. Para utilizar os endpoints de deleção e alteração de usuário você ter função (role) de 'admin'\n"+
+                    "\nInstruÃ§Ãµes de uso:\n Para utilizar esta WebAPI pela primeira vez, vocÃª deve realizar " +
+                    "o cadastro de um novo usuÃ¡rio\n na base de dados.Utilize o endpoint de POST de Usuario para isso." +
+                    "VocÃª deve se cadastrar como\n 'admin', 'gerente' ou 'projetista'.\n\n"+
+                    "- AutenticaÃ§Ã£o\n\nObtenha um token inserindo username e senha no endpoint de login.\n\n" +
+                    "- AutorizaÃ§Ã£o\n\nClique no botÃ£o de autorizaÃ§Ã£o (Authorize) e insira 'Bearer ' seguido do token.\n\n" +
+                    "- PermissÃµes\n\n1. Os endpoints de cadastro de UsuÃ¡rio e login nÃ£o requerem autorizaÃ§Ã£o.\n"+
+                    "2. Para utilizar o endpoint de cadastro de empregado vocÃª deve ter funÃ§Ã£o (role) de 'gerente'.\n"+
+                    "3. Para utilizar o endpoint de cadastro de projeto vocÃª deve ter funÃ§Ã£o (role) de 'gerente' ou 'projetista'.\n"+
+                    "4. Para utilizar os endpoints de deleÃ§Ã£o e alteraÃ§Ã£o de usuÃ¡rio vocÃª deve ter funÃ§Ã£o (role) de 'admin'.\n"+
                     "5. Todos os endpoints podem ser acessados pelo 'admin'",
                     Contact = new OpenApiContact
                     {
