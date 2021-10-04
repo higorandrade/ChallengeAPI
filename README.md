@@ -43,7 +43,7 @@ Clique no botão de autorização (Authorize) e insira 'Bearer' + (espaço) + *t
 Empregados são cadastrados com um id, nome, sobrenome, telefone, endereço e uma lista de ids de projetos em que participa.
 - Caso oculto, id é gerado automaticamente.
 - Todos os campos são opcionais, mas, caso informado, telefone deve ser uma string numérica de 10 dígitos.
-- ids de projetos inexistentes são ignorados
+- Ids de projetos inexistentes são ignorados.
 
 #### Cadastro de Projetos
 
@@ -51,4 +51,4 @@ Projetos são cadastrados com um id, nome, data de criação, data de término, 
 - Caso oculto, id é gerado automaticamente.
 - Todos os campos, exceto id do gerente, são opcionais.
 - Caso oculta, data de criação assume o valor padrão (01-01-0001 00:00:00).
-- ids de empregados inexistentes são ignorados
+- Ids de empregados inexistentes são ignorados.
